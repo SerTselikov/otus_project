@@ -1,6 +1,8 @@
 <a id="markdown-шаблон-для-работы-правильного-1с-разработчика" name="шаблон-для-работы-правильного-1с-разработчика"></a>
 # Шаблон для работы правильного 1С разработчика
 
+[![Join the chat at https://gitter.im/silverbulleters/vanessa-bootstrap](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/silverbulleters/vanessa-bootstrap?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 * содержит выработанную и обдуманную семантически структуру каталогов
 * содержит необходимые команды для быстрого старта
 
