@@ -19,6 +19,11 @@
 				<CommandName>Form.Command.ВыполнитьЗадачу</CommandName>
 				<ExtendedTooltip name="ФормаЗадачаВыполненаРасширеннаяПодсказка" id="57"/>
 			</Button>
+			<Button name="ФормаВвестиТрудозатраты" id="69">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ВвестиТрудозатраты</CommandName>
+				<ExtendedTooltip name="ФормаВвестиТрудозатратыРасширеннаяПодсказка" id="70"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -281,6 +286,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Стартовать</Action>
+		</Command>
+		<Command name="ВвестиТрудозатраты" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ввести трудозатраты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ввести трудозатраты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВвестиТрудозатраты</Action>
 		</Command>
 	</Commands>
 	<Parameters>
