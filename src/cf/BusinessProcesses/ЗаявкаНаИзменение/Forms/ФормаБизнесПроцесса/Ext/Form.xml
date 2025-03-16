@@ -57,6 +57,19 @@
 					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 				</InputField>
+				<InputField name="ДатаНачалаРаботы" id="66">
+					<DataPath>Объект.ДатаНачалаРаботы</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начало работы</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаНачалаРаботыКонтекстноеМеню" id="67"/>
+					<ExtendedTooltip name="ДатаНачалаРаботыРасширеннаяПодсказка" id="68"/>
+				</InputField>
 				<CheckBoxField name="Стартован" id="34">
 					<DataPath>Объект.Started</DataPath>
 					<EditMode>EnterOnInput</EditMode>
@@ -76,6 +89,7 @@
 		<UsualGroup name="Группа5" id="51">
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
+			<BackColor>#CCFFCC</BackColor>
 			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="52"/>
 			<ChildItems>
 				<InputField name="Статус" id="10">
@@ -152,6 +166,7 @@
 					<ChildItems>
 						<InputField name="Аналитик" id="22">
 							<DataPath>Объект.Аналитик</DataPath>
+							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="АналитикКонтекстноеМеню" id="23"/>

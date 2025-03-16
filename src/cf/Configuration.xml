@@ -258,8 +258,10 @@
 			<Catalog>РолиИсполнителей</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Enum>СтатусыЗаявкиНаИзменение</Enum>
+			<Report>ОтчетПоЗаявкамНаИзменение</Report>
 			<DataProcessor>КартаМаршрутаБизнесПроцесса</DataProcessor>
 			<InformationRegister>ИсполнителиЗадач</InformationRegister>
+			<InformationRegister>ТрудозатратыПоЗаявкамНаИзменение</InformationRegister>
 			<BusinessProcess>ЗаявкаНаИзменение</BusinessProcess>
 			<Task>ЗадачаИсполнителя</Task>
 		</ChildObjects>

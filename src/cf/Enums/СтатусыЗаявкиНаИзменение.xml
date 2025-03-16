@@ -38,6 +38,18 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
+			<EnumValue uuid="d6a36ed8-56a7-4807-86b4-b36389a0f386">
+				<Properties>
+					<Name>Бэклог</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Бэклог</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="74339759-ad1e-4ea5-ba64-85808c128077">
 				<Properties>
 					<Name>АналитическаяПроработка</Name>
