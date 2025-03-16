@@ -257,7 +257,6 @@
 			<Catalog>ПрограммныеПродукты</Catalog>
 			<Catalog>РолиИсполнителей</Catalog>
 			<Catalog>Пользователи</Catalog>
-			<Document>удалить_ЗаявкаНаИзменение</Document>
 			<Enum>СтатусыЗаявкиНаИзменение</Enum>
 			<DataProcessor>КартаМаршрутаБизнесПроцесса</DataProcessor>
 			<InformationRegister>ИсполнителиЗадач</InformationRegister>
