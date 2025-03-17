@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.трекер_ОсновнаяРоль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.трекер_ПодачаЗаявокНаИзменение</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
 			<Version/>
@@ -66,7 +66,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>трекер_ПодачаЗаявокНаИзменение</Subsystem>
-			<Role>трекер_ОсновнаяРоль</Role>
+			<Role>трекер_ПодачаЗаявокНаИзменение</Role>
 			<CommonModule>трекер_RabbitMQ</CommonModule>
 			<CommonModule>трекер_RabbitMQКлиентСервер</CommonModule>
 			<CommonModule>трекер_RabbitMQКлиент</CommonModule>
