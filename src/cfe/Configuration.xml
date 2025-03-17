@@ -42,7 +42,7 @@
 			</Synonym>
 			<Comment/>
 			<ConfigurationExtensionPurpose>Customization</ConfigurationExtensionPurpose>
-			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
+			<KeepMappingToExtendedConfigurationObjectsByIDs>false</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>трекер_</NamePrefix>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_21</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
@@ -74,6 +74,8 @@
 			<CommonModule>трекер_КоннекторHTTP</CommonModule>
 			<CommonModule>трекер_Конвертер</CommonModule>
 			<CommonModule>трекер_ОбменДанными</CommonModule>
+			<CommonModule>трекер_ОбщегоНазначенияКлиентСервер</CommonModule>
+			<CommonModule>трекер_ОбщегоНазначения</CommonModule>
 			<CommonCommand>трекер_ЗаявкаНаИзменение</CommonCommand>
 			<CommonCommand>трекер_ЗагрузкаДанных</CommonCommand>
 			<Constant>трекер_ТекущийПрограммныйПродукт</Constant>

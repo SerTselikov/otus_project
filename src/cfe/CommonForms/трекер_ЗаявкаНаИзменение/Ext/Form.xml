@@ -26,7 +26,7 @@
 			<ExtendedTooltip name="ПрограммныйПродуктРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="ПервичноеОбращение" id="1">
-			<DataPath>Описание</DataPath>
+			<DataPath>ПервичноеОбращение</DataPath>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -41,11 +41,11 @@
 		</InputField>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Описание" id="1">
+		<Attribute name="ПервичноеОбращение" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Описание</v8:content>
+					<v8:content>Первичное обращение</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

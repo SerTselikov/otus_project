@@ -17,6 +17,8 @@
 				<Type>CommandBarButton</Type>
 				<Visible>false</Visible>
 				<CommandName>Form.Command.ВыполнитьЗадачу</CommandName>
+				<BackColor>#FFCC00</BackColor>
+				<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 				<ExtendedTooltip name="ФормаЗадачаВыполненаРасширеннаяПодсказка" id="57"/>
 			</Button>
 			<Button name="ФормаВвестиТрудозатраты" id="69">
@@ -97,34 +99,71 @@
 			<BackColor>#CCFFCC</BackColor>
 			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="52"/>
 			<ChildItems>
-				<InputField name="Статус" id="10">
-					<DataPath>Объект.Статус</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<EditMode>EnterOnInput</EditMode>
-					<AutoMaxWidth>false</AutoMaxWidth>
-					<MaxWidth>22</MaxWidth>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="СтатусКонтекстноеМеню" id="11"/>
-					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="12"/>
-				</InputField>
-				<LabelField name="ЗадачаИсполнителяДата" id="63">
-					<DataPath>ЗадачаИсполнителя.Date</DataPath>
-					<Visible>false</Visible>
+				<UsualGroup name="Группа6" id="76">
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="77"/>
+					<ChildItems>
+						<InputField name="Статус" id="10">
+							<DataPath>Объект.Статус</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>22</MaxWidth>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СтатусКонтекстноеМеню" id="11"/>
+							<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="12"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаЗадача" id="74">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>от</v8:content>
+							<v8:content>Группа задача</v8:content>
 						</v8:item>
 					</Title>
-					<ContextMenu name="ЗадачаИсполнителяДатаКонтекстноеМеню" id="64"/>
-					<ExtendedTooltip name="ЗадачаИсполнителяДатаРасширеннаяПодсказка" id="65"/>
-				</LabelField>
-				<RadioButtonField name="СледующийСтатус" id="53">
-					<DataPath>СледующийСтатус</DataPath>
-					<RadioButtonType>Auto</RadioButtonType>
-					<ContextMenu name="СледующийСтатусКонтекстноеМеню" id="54"/>
-					<ExtendedTooltip name="СледующийСтатусРасширеннаяПодсказка" id="55"/>
-				</RadioButtonField>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа задача</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЗадачаРасширеннаяПодсказка" id="75"/>
+					<ChildItems>
+						<PictureDecoration name="ДекорацияСледующийСтатус" id="71">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Декорация следующий статус</v8:content>
+								</v8:item>
+							</Title>
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<Picture>
+								<xr:Ref>StdPicture.MoveRight</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ДекорацияСледующийСтатусКонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="ДекорацияСледующийСтатусРасширеннаяПодсказка" id="73"/>
+						</PictureDecoration>
+						<RadioButtonField name="СледующийСтатус" id="53">
+							<DataPath>СледующийСтатус</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Следующий статус</v8:content>
+								</v8:item>
+							</ToolTip>
+							<RadioButtonType>Auto</RadioButtonType>
+							<ContextMenu name="СледующийСтатусКонтекстноеМеню" id="54"/>
+							<ExtendedTooltip name="СледующийСтатусРасширеннаяПодсказка" id="55"/>
+						</RadioButtonField>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="Группа3" id="47">

@@ -149,6 +149,12 @@
 							<ContextMenu name="ИмяОчередиКонтекстноеМеню" id="7"/>
 							<ExtendedTooltip name="ИмяОчередиРасширеннаяПодсказка" id="8"/>
 						</InputField>
+						<InputField name="КлючМаршрутизации1" id="126">
+							<DataPath>КлючМаршрутизации</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="КлючМаршрутизации1КонтекстноеМеню" id="127"/>
+							<ExtendedTooltip name="КлючМаршрутизации1РасширеннаяПодсказка" id="128"/>
+						</InputField>
 						<Button name="СозданиеТочкиИОчереди" id="77">
 							<Type>UsualButton</Type>
 							<CommandName>Form.Command.СозданиеТочкиИОчереди</CommandName>
