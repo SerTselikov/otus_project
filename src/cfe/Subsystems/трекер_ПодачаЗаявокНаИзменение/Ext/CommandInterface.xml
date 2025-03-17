@@ -13,6 +13,6 @@
 		</Command>
 	</CommandsVisibility>
 	<SubsystemsOrder>
-		<Subsystem>Subsystem.трекер_ПодачаЗаявокНаИзменение.Subsystem.трекер_ИнтеграцияRabbitMQ</Subsystem>
+		<Subsystem>Subsystem.трекер_ПодачаЗаявокНаИзменение.Subsystem.ОбменДанными.Subsystem.ТранспортерRabbitMQ</Subsystem>
 	</SubsystemsOrder>
 </CommandInterface>

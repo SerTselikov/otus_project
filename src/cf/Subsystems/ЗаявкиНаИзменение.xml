@@ -16,8 +16,8 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЗаявкиНаИзменениеСлужебный</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ЗагрузкаЗаявокНаИзменение</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">fc51255d-ee8c-41c0-a5b0-65686774cf58</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ScheduledJob.ЗагрузкаДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.КартаМаршрутаБизнесПроцесса</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РолиИсполнителей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.СтатусыЗаявкиНаИзменение</xr:Item>

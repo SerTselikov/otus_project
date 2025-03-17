@@ -76,11 +76,21 @@
 				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
 			</SearchControlAddition>
 			<ChildItems>
+				<LabelField name="Комментарий" id="27">
+					<DataPath>Список.Комментарий</DataPath>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="29"/>
+				</LabelField>
 				<LabelField name="Имя" id="16">
 					<DataPath>Список.Имя</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<ContextMenu name="ИмяКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="ИмяРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+				<LabelField name="Аналитика" id="24">
+					<DataPath>Список.Аналитика</DataPath>
+					<ContextMenu name="АналитикаКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="АналитикаРасширеннаяПодсказка" id="26"/>
 				</LabelField>
 				<LabelField name="Значение" id="19">
 					<DataPath>Список.Значение</DataPath>

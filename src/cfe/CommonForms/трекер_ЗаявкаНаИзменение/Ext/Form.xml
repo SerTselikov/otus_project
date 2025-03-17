@@ -25,7 +25,7 @@
 			<ContextMenu name="ПрограммныйПродуктКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ПрограммныйПродуктРасширеннаяПодсказка" id="6"/>
 		</InputField>
-		<InputField name="Описание" id="1">
+		<InputField name="ПервичноеОбращение" id="1">
 			<DataPath>Описание</DataPath>
 			<Title>
 				<v8:item>
@@ -36,8 +36,8 @@
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<MultiLine>true</MultiLine>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<ContextMenu name="ОписаниеКонтекстноеМеню" id="2"/>
-			<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="3"/>
+			<ContextMenu name="ПервичноеОбращениеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПервичноеОбращениеРасширеннаяПодсказка" id="3"/>
 		</InputField>
 	</ChildItems>
 	<Attributes>
