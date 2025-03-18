@@ -317,7 +317,7 @@
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="BeforeCreateTasks"/>
 				<Event name="OnCreateTask">СогласоватьДоработкуПриСозданииЗадач</Event>
-				<Event name="OnExecute"/>
+				<Event name="OnExecute">СогласоватьДоработкуПриВыполнении</Event>
 				<Event name="CheckExecutionProcessing"/>
 				<Event name="BeforeExecute"/>
 				<Event name="BeforeExecuteInteractively"/>
