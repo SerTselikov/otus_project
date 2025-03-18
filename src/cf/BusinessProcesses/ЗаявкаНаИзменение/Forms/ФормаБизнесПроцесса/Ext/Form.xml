@@ -33,7 +33,6 @@
 	</Events>
 	<ChildItems>
 		<UsualGroup name="Группа1" id="40">
-			<ReadOnly>true</ReadOnly>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="41"/>
@@ -53,6 +52,7 @@
 				</InputField>
 				<InputField name="Дата" id="4">
 					<DataPath>Объект.Date</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -79,6 +79,7 @@
 				</InputField>
 				<CheckBoxField name="Стартован" id="34">
 					<DataPath>Объект.Started</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="СтартованКонтекстноеМеню" id="35"/>
@@ -86,6 +87,7 @@
 				</CheckBoxField>
 				<CheckBoxField name="Завершен" id="37">
 					<DataPath>Объект.Completed</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
 					<ContextMenu name="ЗавершенКонтекстноеМеню" id="38"/>
