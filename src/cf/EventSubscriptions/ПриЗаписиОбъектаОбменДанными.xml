@@ -14,7 +14,7 @@
 				<v8:Type>cfg:CatalogObject.ПрограммныеПродукты</v8:Type>
 			</Source>
 			<Event>OnWrite</Event>
-			<Handler>CommonModule.ОбменДанными.ПриЗаписиОбъектаОбменДаннымиОбработчикПодписки</Handler>
+			<Handler>CommonModule.ОбменДанными.ПриЗаписиОбъектаОбработчикПодписки</Handler>
 		</Properties>
 	</EventSubscription>
 </MetaDataObject>
