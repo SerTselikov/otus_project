@@ -22,6 +22,7 @@
 				</v8:item>
 			</Title>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 			<ContextMenu name="ПрограммныйПродуктКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ПрограммныйПродуктРасширеннаяПодсказка" id="6"/>
 		</InputField>
@@ -36,6 +37,7 @@
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<MultiLine>true</MultiLine>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<AutoMarkIncomplete>true</AutoMarkIncomplete>
 			<ContextMenu name="ПервичноеОбращениеКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="ПервичноеОбращениеРасширеннаяПодсказка" id="3"/>
 		</InputField>
