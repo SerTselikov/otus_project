@@ -218,13 +218,6 @@
 							<ContextMenu name="АналитикКонтекстноеМеню" id="23"/>
 							<ExtendedTooltip name="АналитикРасширеннаяПодсказка" id="24"/>
 						</InputField>
-						<InputField name="Программист" id="25">
-							<DataPath>Объект.Программист</DataPath>
-							<EditMode>EnterOnInput</EditMode>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<ContextMenu name="ПрограммистКонтекстноеМеню" id="26"/>
-							<ExtendedTooltip name="ПрограммистРасширеннаяПодсказка" id="27"/>
-						</InputField>
 						<InputField name="Техлид" id="28">
 							<DataPath>Объект.Техлид</DataPath>
 							<EditMode>EnterOnInput</EditMode>
@@ -237,6 +230,13 @@
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="АкцептантКонтекстноеМеню" id="45"/>
 							<ExtendedTooltip name="АкцептантРасширеннаяПодсказка" id="46"/>
+						</InputField>
+						<InputField name="Программист" id="25">
+							<DataPath>Объект.Программист</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПрограммистКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ПрограммистРасширеннаяПодсказка" id="27"/>
 						</InputField>
 						<InputField name="ПлановыеТрудозатраты" id="58">
 							<DataPath>Объект.ПлановыеТрудозатраты</DataPath>
