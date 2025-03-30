@@ -22,6 +22,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.RabbitMQКлиентСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.RabbitMQКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.RabbitMQВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ИсходящиеСообщенияRabbitMQ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ОтправитьСообщенияRabbitMQ</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
