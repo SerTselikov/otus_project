@@ -539,17 +539,16 @@
 			<Role>УдаленныйДоступБазоваяФункциональность</Role>
 			<Role>ЧтениеВнешнихПользователей</Role>
 			<CommonTemplate>ПолучениеДереваОбработчиковОбновления</CommonTemplate>
-			<CommonModule>КоннекторHTTP</CommonModule>
-			<CommonModule>АдминистрированиеКластераRASКлиентСервер</CommonModule>
-			<CommonModule>АдминистрированиеКластераCOMКлиентСервер</CommonModule>
-			<CommonModule>АдминистрированиеКластера</CommonModule>
-			<CommonModule>АдминистрированиеКластераRAS</CommonModule>
-			<CommonModule>АдминистрированиеКластераCOM</CommonModule>
-			<CommonModule>RabbitMQВызовСервера</CommonModule>
-			<CommonModule>АдминистрированиеКластераКлиентСервер</CommonModule>
-			<CommonModule>RabbitMQКлиент</CommonModule>
 			<CommonModule>RabbitMQ</CommonModule>
+			<CommonModule>RabbitMQВызовСервера</CommonModule>
+			<CommonModule>RabbitMQКлиент</CommonModule>
 			<CommonModule>RabbitMQКлиентСервер</CommonModule>
+			<CommonModule>АдминистрированиеКластера</CommonModule>
+			<CommonModule>АдминистрированиеКластераCOM</CommonModule>
+			<CommonModule>АдминистрированиеКластераCOMКлиентСервер</CommonModule>
+			<CommonModule>АдминистрированиеКластераRAS</CommonModule>
+			<CommonModule>АдминистрированиеКластераRASКлиентСервер</CommonModule>
+			<CommonModule>АдминистрированиеКластераКлиентСервер</CommonModule>
 			<CommonModule>ВнешниеПользователи</CommonModule>
 			<CommonModule>ВнешниеПользователиКлиент</CommonModule>
 			<CommonModule>ДлительныеОперации</CommonModule>
@@ -562,6 +561,9 @@
 			<CommonModule>ИнтеграцияПодсистемБСПКлиент</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСПКлиентПовтИсп</CommonModule>
 			<CommonModule>ИнтеграцияПодсистемБСППовтИсп</CommonModule>
+			<CommonModule>Конвертер</CommonModule>
+			<CommonModule>КоннекторHTTP</CommonModule>
+			<CommonModule>ОбменДанными</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазы</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыБСП</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыВызовСервера</CommonModule>
@@ -572,6 +574,7 @@
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебный</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебныйВызовСервера</CommonModule>
 			<CommonModule>ОбновлениеИнформационнойБазыСлужебныйПовтИсп</CommonModule>
+			<CommonModule>ОбновлениеИнформационнойБазыТрекер</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
 			<CommonModule>ОбщегоНазначенияГлобальный</CommonModule>
@@ -622,9 +625,6 @@
 			<CommonModule>ФайловаяСистемаСлужебныйКлиент</CommonModule>
 			<CommonModule>ФайловаяСистемаСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ФизическиеЛицаКлиентСервер</CommonModule>
-			<CommonModule>ОбновлениеИнформационнойБазыТрекер</CommonModule>
-			<CommonModule>ОбменДанными</CommonModule>
-			<CommonModule>Конвертер</CommonModule>
 			<ExchangePlan>ОбновлениеИнформационнойБазы</ExchangePlan>
 			<XDTOPackage>ApdexExport</XDTOPackage>
 			<XDTOPackage>ApdexExport_1_0_0_2</XDTOPackage>
@@ -651,6 +651,7 @@
 			<ScheduledJob>УдалениеУстаревшихПараметровРаботыВерсийРасширений</ScheduledJob>
 			<ScheduledJob>УстановкаПорядкаОтложенногоОбновленияВМоделиСервиса</ScheduledJob>
 			<ScheduledJob>ЭкспортОценкиПроизводительности</ScheduledJob>
+			<ScheduledJob>ОтправкаСообщенийВRabbitMQ</ScheduledJob>
 			<FunctionalOption>ИспользоватьВнешнихПользователей</FunctionalOption>
 			<FunctionalOption>ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</FunctionalOption>
 			<FunctionalOption>ИспользоватьГруппыПользователей</FunctionalOption>
@@ -675,6 +676,7 @@
 			<CommonCommand>СведенияОПользователе</CommonCommand>
 			<CommonCommand>СменитьПароль</CommonCommand>
 			<CommonCommand>УстановитьРасширениеДляРаботыС1СПредприятием</CommonCommand>
+			<CommonCommand>ОтправитьСообщенияRabbitMQ</CommonCommand>
 			<CommandGroup>Информация</CommandGroup>
 			<CommandGroup>Органайзер</CommandGroup>
 			<Constant>АдресПубликацииИнформационнойБазыВИнтернете</Constant>
@@ -747,6 +749,7 @@
 			<Catalog>ИдентификаторыОбъектовРасширений</Catalog>
 			<Catalog>КлючевыеОперации</Catalog>
 			<Catalog>ПрофилиКлючевыхОпераций</Catalog>
+			<Catalog>ИсходящиеСообщенияRabbitMQ</Catalog>
 			<Enum>СтатусыЗаявкиНаИзменение</Enum>
 			<Enum>ПорядокОбработчиковОбновления</Enum>
 			<Enum>РежимыВыполненияОбработчиков</Enum>
